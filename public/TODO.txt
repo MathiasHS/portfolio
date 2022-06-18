@@ -1,0 +1,4 @@
+1.Få header opp å kjøre(full screen) GitHub sticker oppe i venstre hjørne
+2.Hente data fra JSON fil til componenter
+3.Få til dark/light modus
+4.Få til "CV"-timeline, Experience
