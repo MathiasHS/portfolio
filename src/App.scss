@@ -1,6 +1,6 @@
 @import './scss/theme-dark.scss';
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&display=swap');
-
+@import "~bootstrap/scss/bootstrap";
 *{
     margin: 0;
 	padding: 0;
@@ -40,7 +40,6 @@ header {
 
 .title-container {
 	height: 50px;
-	// font-family: 'Raleway', sans-serif;
 }
 
 .language {
@@ -48,4 +47,9 @@ header {
 	background-color: #e9d5a1;
 	padding-bottom: 10px;
 	padding-top: 80px;
+}
+
+.language-icon {
+	font-size: 50px;
+	cursor: pointer;
 }

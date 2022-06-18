@@ -23,7 +23,7 @@ export default function Header({props}) {
     return (
         <header id="home" style={{height: window.innerHeight - 140, display: 'block'}}>
             <div className="row aligner" style={{height: '100%'}}>
-                <div className="col-md-12">
+                <div>
                     <div>
                     <Icon icon="la:laptop-code" width="150" height="150"/>
                     <p className="title-styles">Mathias Simonsen</p>
