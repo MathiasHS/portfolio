@@ -1,3 +1,4 @@
+@import './scss/theme-dark.scss';
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&display=swap');
 
 *{
@@ -32,8 +33,14 @@ header {
 	padding-bottom: 0;
 }
 
+.title-styles {
+	font-family: 'Raleway', sans-serif;
+	font-size: 40px;
+}
+
 .title-container {
 	height: 50px;
+	// font-family: 'Raleway', sans-serif;
 }
 
 .language {
