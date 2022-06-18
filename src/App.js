@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "./components/Header";
+import About from "./components/About";
 import "./App.scss";
 
 export default function App() {
@@ -24,6 +25,7 @@ export default function App() {
           ></span>
         </div>
       </div>
+      <About />
     </>
     
   )
