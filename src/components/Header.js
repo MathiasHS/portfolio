@@ -31,30 +31,14 @@ export default function Header({props}) {
                     <div className="title-container title-styles">
                         <Typewriter 
                           options={{
-                            loop: true
-                          }}
-                          onInit={(typewriter)=>{
-                            typewriter
-                            .typeString("Webutvikler")
-                            .pauseFor(1500)
-                            .deleteAll()
-                            .typeString("Datanerd")
-                            .pauseFor(1500)
-                            .deleteAll()
-                            .typeString("Crypto entusiast")
-                            .pauseFor(1500)
-                            .deleteAll()
-                            .typeString("Gamer")
-                            .pauseFor(1500)
-                            .deleteAll()
-                            .typeString("Speider")
-                            .pauseFor(1500)
-                            .deleteAll()
-                            .start();
+                            loop: true,
+                            autoStart: true,
+                            pauseFor: 1500,
+                            strings: ["Webutvikler", "Datanerd", "Crypto entusiast", "Gamer", "Speider"]
                           }}
                         />
                     </div>
-                    
+
                     <Switch 
                         checked={checked}
                         onChange={onThemeSwitchChange}
