@@ -9,8 +9,13 @@ import { Icon } from '@iconify/react';
 export default function About() {
   return (
     <Container id='about' fluid>
-      <Row>
-        <Col sm={4}>
+    <Container fluid className='aligner'>
+      <h1 className="title-styles" style={{fontSize: 40}}>
+        Om meg
+      </h1>
+    </Container>
+      <Row className='aligner'>
+        <Col lg={4}>
           <Container className="polaroid">
             <Container >
               <span>
@@ -54,13 +59,14 @@ export default function About() {
         </Col>
 
 
-        <Col sm={8} >
+        <Col lg={8} >
           <Row style={{
             marginTop: 20,
             border: "2px solid rgba(0,0,0,0.125)",
             borderTopLeftRadius: 3,
             borderTopRightRadius: 3,
-            backgroundColor: "rgba(0,0,0,.03)"
+            backgroundColor: "rgba(0,0,0,.03)",
+            width: "70%"
             }}
           >
             <Container >
@@ -76,6 +82,7 @@ export default function About() {
             borderTop: "none",
             borderBottomLeftRadius: 3,
             borderBottomRightRadius: 3,
+            width: "70%"
             }}
           >
             <Container style={{height: 400}}>
