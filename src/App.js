@@ -1,6 +1,9 @@
 import React from "react";
 import Header from "./components/Header";
 import About from "./components/About";
+import Skills from "./components/Skills";
+import SkillsList from "./components/SkillsList";
+
 import "./App.scss";
 
 export default function App() {
@@ -8,7 +11,7 @@ export default function App() {
 
 
     <>
-      <Header/>
+      <Header />
       <div className="aligner language">
         <div style={{marginRight: 15}}>
           <span
@@ -26,6 +29,12 @@ export default function App() {
         </div>
       </div>
       <About />
+      <Skills 
+        icon="logos:react"
+        height="40"
+        name="React"
+      />
+      {/* <SkillsList/> */}
     </>
     
   )

@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from "react";
+import React, {useState} from "react";
 import { Icon } from '@iconify/react';
 import Switch from "react-switch";
 import Typewriter from 'typewriter-effect';
