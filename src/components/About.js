@@ -10,10 +10,9 @@ export default function About() {
   return (
     <Container id='about' fluid>
       <Row>
-        <Col sm={4} className=''>
+        <Col sm={4}>
           <Container className="polaroid">
             <Container >
-
               <span>
                 <Container className='aligner' style={{marginBottom: 15, justifyContent: 'center', width: "100%"}}>
                   <img 
@@ -53,8 +52,37 @@ export default function About() {
 
           </Container>
         </Col>
-        <Col sm={8} style={{backgroundColor: 'black'}}>
 
+
+        <Col sm={8} >
+          <Row style={{
+            marginTop: 20,
+            border: "2px solid rgba(0,0,0,0.125)",
+            borderTopLeftRadius: 3,
+            borderTopRightRadius: 3,
+            backgroundColor: "rgba(0,0,0,.03)"
+            }}
+          >
+            <Container >
+                <Icon icon="emojione:red-circle" width="10" height="10"   style={{margin: "12.5 5 10"}}/>
+                <Icon icon="twemoji:yellow-circle" width="10" height="10" style={{margin: "12.5 5 10"}}/>
+                <Icon icon="twemoji:green-circle" width="10" height="10"  style={{margin: "12.5 5 10"}}/>
+            </Container>
+
+          </Row>
+
+          <Row style={{
+            border: "2px solid rgba(0,0,0,0.125)",
+            borderTop: "none",
+            borderBottomLeftRadius: 3,
+            borderBottomRightRadius: 3,
+            }}
+          >
+            <Container style={{height: 400}}>
+                
+            </Container>
+
+          </Row>
         </Col>
       </Row>
     </Container>

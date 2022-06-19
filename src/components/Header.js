@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from "react";
 import { Icon } from '@iconify/react';
-import TypeAnimation from "react-type-animation";
 import Switch from "react-switch";
+import Typewriter from 'typewriter-effect';
 
 export default function Header({props}) {
 
@@ -29,12 +29,32 @@ export default function Header({props}) {
                     <p className="title-styles">Mathias Simonsen</p>
 
                     <div className="title-container title-styles">
-                        <TypeAnimation 
-                            cursor={true}
-                            sequence={["Webutvikler", 1500, "Datanerd", 1500, "Crypto entusiast", 1500, "Gamer", 1500, "Speider", 1500]}
-                            repeat={Infinity}
+                        <Typewriter 
+                          options={{
+                            loop: true
+                          }}
+                          onInit={(typewriter)=>{
+                            typewriter
+                            .typeString("Webutvikler")
+                            .pauseFor(1500)
+                            .deleteAll()
+                            .typeString("Datanerd")
+                            .pauseFor(1500)
+                            .deleteAll()
+                            .typeString("Crypto entusiast")
+                            .pauseFor(1500)
+                            .deleteAll()
+                            .typeString("Gamer")
+                            .pauseFor(1500)
+                            .deleteAll()
+                            .typeString("Speider")
+                            .pauseFor(1500)
+                            .deleteAll()
+                            .start();
+                          }}
                         />
                     </div>
+                    
                     <Switch 
                         checked={checked}
                         onChange={onThemeSwitchChange}
