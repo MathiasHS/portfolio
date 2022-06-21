@@ -1,4 +1,5 @@
-export const portfolioData = {
+export const portfolioData = [{
+  
     basic_info: {
         name: "Mathias Hodnsssse Simossssnsen",
         titles: "Front-end Developer",
@@ -16,32 +17,45 @@ export const portfolioData = {
         ],
         image: "image_me.jpg"
       },
+
       skills: {
         icons: [
           {
             name: "HTML 5",
-            class: "devicon-html5-plain"
+            class: "fontisto:html5"
           },
           {
             name: "CSS 3",
-            class: "devicon-css3-plain"
+            class: "simple-icons:css3"
           },
           {
             name: "TypeScript",
-            class: "devicon-typescript-plain"
+            class: "file-icons:typescript-alt"
           },
           {
             name: "JavaScript",
-            class: "devicon-javascript-plain"
+            class: "bxl:javascript"
+          },
+          {
+            name: "React",
+            class: "akar-icons:react-fill"
           },
           {
             name: "Bootstrap",
-            class: "devicon-bootstrap-plain"
+            class: "akar-icons:bootstrap-fill"
           },
           {
-            name: "MySql",
-            class: "devicon-mysql-plain"
-          }
+            name: "",
+            class: "cib:mysql"
+          },
+          {
+            name: "Git",
+            class: "bi:git"
+          },
+          {
+            name: "Node.js",
+            class: "bxl:nodejs"
+          },
         ]
       }
-};
+}];

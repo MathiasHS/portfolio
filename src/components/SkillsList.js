@@ -1,14 +1,26 @@
 import React, {useState} from 'react'
-import { Container } from 'react-bootstrap'
+import { Container, Row } from 'react-bootstrap'
+import SkillItem from './SkillItem.js'
 import {portfolioData} from '../data/portfolioData.js'
 
-export default function SkillsList() {
 
+export default function SkillsList(props) {
+
+  
   return (
-      <Container fluid>
-          <p style={{fontSize: 40}}>{portfolioData.basic_info.name}</p>
-
-      </Container>
-    
-  )
+        <Row>
+          {portfolioData.map((info, index) =>
+            <ul style={{listStyleType: "none", justifyContent: "space-between"}} >
+              {info.skills.icons.map((skills) => 
+                <li style={{float: "left"}}>
+                  <SkillItem
+                    name={skills.name}
+                    icon={skills.class}
+                  />
+                </li>
+              )}
+            </ul>
+          )} 
+        </Row>
+  );
 }
