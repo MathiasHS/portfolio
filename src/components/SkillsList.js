@@ -14,6 +14,7 @@ export default function SkillsList(props) {
               {info.skills.icons.map((skills) => 
                 <li style={{float: "left"}}>
                   <SkillItem
+                    // key={name.toString()}
                     name={skills.name}
                     icon={skills.class}
                   />

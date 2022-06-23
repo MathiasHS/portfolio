@@ -45,8 +45,8 @@ export const portfolioData = [{
             class: "akar-icons:bootstrap-fill"
           },
           {
-            name: "",
-            class: "cib:mysql"
+            name: "MySQL",
+            class: "fontisto:mysql"
           },
           {
             name: "Git",

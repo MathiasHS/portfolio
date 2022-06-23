@@ -8,7 +8,7 @@ export default function SkillItem(props) {
         <Container className='aligner' >
             <Icon icon={props.icon} width={40} color={"white"} style={{margin: 5}} />
         </Container>
-        <Container className='aligner' style={{color: "white", }}>
+        <Container className='aligner' style={{color: "white", minHeight: 35 }}>
             <p style={{fontSize: 16}}>{props.name}</p>
         </Container>
     </Container>
