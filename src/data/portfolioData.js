@@ -7,12 +7,12 @@ export const portfolioData = [{
           {
             name: "github",
             url: "https://github.com/Datamus",
-            class: "fab fa-github"
+            icon: "fab fa-github"
           },
           {
             name: "linkedin",
             url: "https://www.linkedin.com/in/mathias-simonsen-6723541a3/",
-            class: "fab fa-linkedin"
+            icon: "fab fa-linkedin"
           }
         ],
         image: "image_me.jpg"
@@ -22,39 +22,39 @@ export const portfolioData = [{
         icons: [
           {
             name: "HTML 5",
-            class: "fontisto:html5"
+            icon: "fontisto:html5"
           },
           {
             name: "CSS 3",
-            class: "simple-icons:css3"
+            icon: "simple-icons:css3"
           },
           {
             name: "TypeScript",
-            class: "file-icons:typescript-alt"
+            icon: "file-icons:typescript-alt"
           },
           {
             name: "JavaScript",
-            class: "bxl:javascript"
+            icon: "bxl:javascript"
           },
           {
             name: "React",
-            class: "akar-icons:react-fill"
+            icon: "akar-icons:react-fill"
           },
           {
             name: "Bootstrap",
-            class: "akar-icons:bootstrap-fill"
+            icon: "akar-icons:bootstrap-fill"
           },
           {
             name: "MySQL",
-            class: "fontisto:mysql"
+            icon: "fontisto:mysql"
           },
           {
             name: "Git",
-            class: "bi:git"
+            icon: "bi:git"
           },
           {
             name: "Node.js",
-            class: "bxl:nodejs"
+            icon: "bxl:nodejs"
           },
         ]
       }

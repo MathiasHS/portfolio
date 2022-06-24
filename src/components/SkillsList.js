@@ -17,7 +17,7 @@ export default function SkillsList(props) {
                   <SkillItem
                     // key={name.toString()}
                     name={skills.name}
-                    icon={skills.class}
+                    icon={skills.icon}
                   />
                 </li>
               )}
