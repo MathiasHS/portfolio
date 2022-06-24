@@ -6,7 +6,16 @@ import SkillsList from './SkillsList';
 export default function Skills(props) {
   return (
     <Container fluid className='skills'>
-      <SkillsList />
+      <Container fluid className='aligner'>
+        <h1 className="title-styles"style={{color: "white"}}>
+          Skills
+        </h1>
+      </Container>
+      <Row className='skills-list'>
+        
+        <SkillsList />
+      </Row>
+
     </Container>
   )
 }
