@@ -10,11 +10,11 @@ export default function SkillsList(props) {
   return (
         <Row>
           {portfolioData.map((info, index) =>
-            <ul style={{listStyleType: "none", justifyContent: "space-around"}} >
-              {info.skills.icons.map((skills) => 
-                <li style={{float: "left", marginRight: "1rem", marginLeft: "1rem"}}>
+            <ul key={info.skills.icons.toString()} style={{listStyleType: "none", justifyContent: "space-around"}} >
+              {info.skills.icons.map((skills, index) => 
+                <li key={skills.name.toString()} style={{float: "left", marginRight: "1rem", marginLeft: "1rem"}}>
                   <SkillItem
-                    // key={name.toString()}
+                    
                     name={skills.name}
                     icon={skills.icon}
                   />
