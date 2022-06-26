@@ -9,51 +9,52 @@ import { Icon } from '@iconify/react';
 export default function About() {
   return (
     <Container id='about' fluid>
-    <Container fluid className='aligner' style={{marginTop: 20}}>
-      <h1 className="title-styles">
-        Om meg
-      </h1>
-    </Container>
-      <Row className='aligner'>
-        <Col lg={4}>
-          <Container className="polaroid">
-            <Container >
-              <span>
-                <Container className='aligner' style={{marginBottom: 15, justifyContent: 'center', width: "100%"}}>
-                  <img 
-                    width={180}
-                    src='images/image_me.png'
-                    alt="Avatar placeholder"
-                  />
+      <Container fluid className='aligner' >
+        <h1 className="title-styles" style={{marginTop: 20}}>
+          Om meg
+        </h1>
+      </Container>
 
-                </Container>
-              <Icon
-                icon="logos:react"
-                height="40"
-                style={{margin: 5}}
-              />
-              <Icon
-                icon="logos:java"
-                height="40"
-                style={{margin: 5}}
-              />
-              <Icon
-                icon="logos:javascript"
-                height="40"
-                style={{margin: 5}}
-              />
-              <Icon
-                icon="logos:mysql"
-                height="40"
-                style={{margin: 5}}
-              />
-              <Icon
-                icon="logos:ethereum"
-                height="40"
-                style={{margin: 5}}
-              />
-              </span>
-            </Container>
+        <Row className='aligner'>
+          <Col lg={4}>
+            <Container className="polaroid">
+              <Container >
+                <span>
+                  <Container className='aligner' style={{marginBottom: 15, justifyContent: 'center', width: "100%"}}>
+                    <img 
+                      width={180}
+                      src='images/image_me.png'
+                      alt="Avatar placeholder"
+                    />
+
+                  </Container>
+                <Icon
+                  icon="logos:react"
+                  height="40"
+                  style={{margin: 5}}
+                />
+                <Icon
+                  icon="logos:java"
+                  height="40"
+                  style={{margin: 5}}
+                />
+                <Icon
+                  icon="logos:javascript"
+                  height="40"
+                  style={{margin: 5}}
+                />
+                <Icon
+                  icon="logos:mysql"
+                  height="40"
+                  style={{margin: 5}}
+                />
+                <Icon
+                  icon="logos:ethereum"
+                  height="40"
+                  style={{margin: 5}}
+                />
+                </span>
+              </Container>
 
           </Container>
         </Col>
