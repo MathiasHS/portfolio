@@ -1,13 +1,13 @@
-export const primaryLanguage[{
+export const primaryLanguage = [{
     basic_info: {
         description_header: "Hallo",
         description: "👋 Mathias Simonsen her. Jeg elsker å jobbe med webutvikling, på sikt vil jeg jobbe som Full-stack utvikler. For tiden blir jeg bedre kjent med React.js og Typescript.",
-        section_name: {
+        section_name: [{
           about: "Om meg",
           projects: "Prosjekter",
           skills: "Ferdigheter",
           experience: "Erfaringer"
-        }
+        }]
       },
       experience: [
         {
@@ -51,7 +51,6 @@ export const primaryLanguage[{
             location: "Kristiansand",
             title: "Vedlikeholdsarbeider",
             years: "Juni 2015 - August 2015"
-          }
-      ]
-
-}];
+          }]
+}
+];

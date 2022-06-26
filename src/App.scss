@@ -89,13 +89,17 @@ header {
 
 .skills {
     background: #1f1f1f;
-    height: 300px;
-    overflow: hidden;
+    min-height: 300px;
+    // overflow: hidden;
 	
 }
 
-.skills-list {
-	display: flex;
-	align-items: center;
+.footer {
+	background: #1f1f1f;
+	height: 150px;
+}
+
+.aligner-noFlex {
 	justify-content: center;
+	align-items: center;
 }

@@ -5,17 +5,16 @@ import SkillsList from './SkillsList';
 
 export default function Skills(props) {
   return (
-    <Container fluid className='skills'>
-      <Container fluid className='aligner'>
+    <Container fluid className='aligner skills' style={{flexDirection: "column"}}>
+
+      <Container fluid className='aligner' style={{marginBottom: 50}}>
         <h1 className="title-styles"style={{color: "white"}}>
           Skills
         </h1>
       </Container>
-      <Row className='skills-list'>
-        
-        <SkillsList />
-      </Row>
 
+      <SkillsList />
+      
     </Container>
   )
 }

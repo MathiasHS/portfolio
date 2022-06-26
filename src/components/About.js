@@ -9,8 +9,8 @@ import { Icon } from '@iconify/react';
 export default function About() {
   return (
     <Container id='about' fluid>
-    <Container fluid className='aligner'>
-      <h1 className="title-styles" style={{fontSize: 40}}>
+    <Container fluid className='aligner' style={{marginTop: 20}}>
+      <h1 className="title-styles">
         Om meg
       </h1>
     </Container>

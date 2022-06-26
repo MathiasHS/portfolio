@@ -2,9 +2,10 @@ import React from "react";
 import Header from "./components/Header";
 import About from "./components/About";
 import Skills from "./components/Skills";
-import SkillsList from "./components/SkillsList";
 
 import "./App.scss";
+import Footer from "./components/Footer";
+import Experience from "./components/Experience";
 
 export default function App() {
   return (
@@ -34,7 +35,8 @@ export default function App() {
         height="40"
         name="React"
       />
-      {/* <SkillsList/> */}
+      <Experience />
+      <Footer />
     </>
     
   )

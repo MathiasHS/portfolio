@@ -9,7 +9,6 @@ export default function SkillsList(props) {
   
   return (
         <Row>
-          <Container className='aligner' >
           {portfolioData.map((info, index) =>
             <ul style={{listStyleType: "none", justifyContent: "space-around"}} >
               {info.skills.icons.map((skills) => 
@@ -23,7 +22,6 @@ export default function SkillsList(props) {
               )}
             </ul>
           )} 
-          </Container>
         </Row>
   );
 }
