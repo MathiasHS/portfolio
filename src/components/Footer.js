@@ -8,8 +8,12 @@ export default function Footer() {
       <div className='footer aligner ' style={{flexDirection: "column"}}>
 
             <div style={{marginBottom: 15}}>
-              <Icon icon="akar-icons:github-fill" color="white" width="25" height="25" style={{marginRight: 20}}/>
-              <Icon icon="akar-icons:linkedin-box-fill" color="white" width="25" height="25"/>
+              <a href='https://github.com/Datamus' target="_blank">
+                <Icon icon="akar-icons:github-fill" color="white" width="25" height="25" style={{marginRight: 20}}/>
+              </a>
+              <a href='https://www.linkedin.com/in/mathias-simonsen-6723541a3/' target="_blank">
+                <Icon icon="akar-icons:linkedin-box-fill" color="white" width="25" height="25"/>
+              </a>
             </div>
 
             <div>
