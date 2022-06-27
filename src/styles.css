@@ -71,7 +71,7 @@ header {
   -moz-transition: all 0.2s linear;
   transition: all 0.2s linear;
   z-index: 0;
-  position: relative;
+  /* position: relative; */
 }
 
 .skills-tile {
@@ -98,4 +98,21 @@ header {
 .aligner-noFlex {
   justify-content: center;
   align-items: center;
+}
+
+.textWindowTop {
+  border: 2px solid rgba(0, 0, 0, 0.125);
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  background-color: rgba(0, 0, 0, 0.03);
+  width: 800px;
+}
+
+.textWindowBody {
+  border: 2px solid rgba(0, 0, 0, 0.125);
+  border-top: none;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  width: 800px;
+  height: 400px;
 }
