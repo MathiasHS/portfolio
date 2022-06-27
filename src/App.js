@@ -4,6 +4,7 @@ import About from "./components/About";
 import Skills from "./components/Skills";
 
 import "./App.scss";
+import "./styles.css";
 import Footer from "./components/Footer";
 import Experience from "./components/Experience";
 
