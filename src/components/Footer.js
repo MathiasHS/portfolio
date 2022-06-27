@@ -27,10 +27,8 @@ export default function Footer() {
         </a>
       </div>
 
-      <div>
-        <p style={{ fontSize: 15, color: "white" }}>
-          Copyright &copy; Mathias Simonsen
-        </p>
+      <div className="text-base text-white">
+        <p>Copyright &copy; Mathias Simonsen</p>
       </div>
     </div>
   );

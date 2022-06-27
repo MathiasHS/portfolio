@@ -1,3 +1,101 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+.aligner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+  position: relative;
+  height: 520px;
+  min-height: 450px;
+  width: 100%;
+  background-size: cover;
+  -webkit-background-size: cover;
+  text-align: center;
+  overflow: hidden;
+  background-color: #e9d5a1;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 150px;
+  padding-bottom: 0;
+}
+
+.title-styles {
+  font-family: "Raleway", sans-serif;
+  font-size: 40px;
+}
+
+.title-container {
+  height: 50px;
+}
+
+.language {
+  font-size: 25px;
+  background-color: #e9d5a1;
+  padding-bottom: 10px;
+  padding-top: 80px;
+}
+
+.language-icon {
+  font-size: 50px;
+  cursor: pointer;
+}
+
+.polaroid img {
+  display: block;
+}
+
+.polaroid span {
+  background: #ffffff;
+  display: inline-block;
+  margin: 55px 75px 30px;
+  padding: 15px 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  z-index: 0;
+  position: relative;
+}
+
+.skills-tile {
+  background-color: rgba(248, 245, 244, 0.05);
+  padding: 10px 10px 5px;
+  width: 150px;
+  max-height: 100px;
+  margin: 5px 0;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.skills {
+  background: #1f1f1f;
+  min-height: 300px;
+  /* overflow: hidden; */
+}
+
+.footer {
+  background: #1f1f1f;
+  height: 150px;
+}
+
+.aligner-noFlex {
+  justify-content: center;
+  align-items: center;
+}

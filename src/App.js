@@ -3,19 +3,17 @@ import Header from "./components/Header";
 import About from "./components/About";
 import Skills from "./components/Skills";
 
-import "./App.scss";
+// import "./App.scss";
 import "./styles.css";
 import Footer from "./components/Footer";
 import Experience from "./components/Experience";
 
 export default function App() {
   return (
-
-
     <>
       <Header />
       <div className="aligner language">
-        <div style={{marginRight: 15}}>
+        <div style={{ marginRight: 15 }}>
           <span
             className="iconify language-icon"
             data-icon="twemoji-flag-for-flag-norway"
@@ -31,16 +29,9 @@ export default function App() {
         </div>
       </div>
       <About />
-      <Skills 
-        icon="logos:react"
-        height="40"
-        name="React"
-      />
+      <Skills icon="logos:react" height="40" name="React" />
       <Experience />
       <Footer />
     </>
-    
-  )
+  );
 }
-
-
