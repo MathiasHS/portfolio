@@ -7,6 +7,7 @@ import Skills from "./components/Skills";
 import "./styles.css";
 import Footer from "./components/Footer";
 import Experience from "./components/Experience";
+import Projects from "./components/Projects";
 
 export default function App() {
   return (
@@ -29,6 +30,7 @@ export default function App() {
         </div>
       </div>
       <About />
+      <Projects />
       <Skills icon="logos:react" height="40" name="React" />
       <Experience />
       <Footer />
