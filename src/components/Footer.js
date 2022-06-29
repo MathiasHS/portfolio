@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <div className="footer flex items-center justify-center flex-col">
       <div className="flex" style={{ marginBottom: 15 }}>
-        <a href="https://github.com/Datamus" target="_blank">
+        <a href="https://github.com/Datamus" target="_blank" rel="noreferrer">
           <Icon
             icon="akar-icons:github-fill"
             color="white"
@@ -17,6 +17,7 @@ export default function Footer() {
         <a
           href="https://www.linkedin.com/in/mathias-simonsen-6723541a3/"
           target="_blank"
+          rel="noreferrer"
         >
           <Icon
             icon="akar-icons:linkedin-box-fill"
