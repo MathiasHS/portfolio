@@ -28,8 +28,8 @@ export default function Footer() {
         </a>
       </div>
 
-      <div className="text-base text-white">
-        <p>Copyright &copy; Mathias Simonsen</p>
+      <div>
+        <p className="text-white">Copyright &copy; Mathias Simonsen</p>
       </div>
     </div>
   );
