@@ -24,7 +24,7 @@ export default function Header(props) {
       <header className="h-[calc(100vh-8.75rem)]">
         <div className="flex justify-center items-center flex-col">
           <Icon icon="la:laptop-code" width="150" height="150" />
-          <p className="title-styles">{}</p>
+          <p className="title-styles">{props.name}</p>
 
           <div className="title-h-14 title-styles">
             <Typewriter

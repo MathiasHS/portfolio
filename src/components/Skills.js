@@ -8,7 +8,7 @@ export default function Skills(props) {
         <h1 className=" text-lg tracking-widest text-white">SKILLS</h1>
       </div>
 
-      <SkillsList />
+      <SkillsList skills={props.skills} />
     </div>
   );
 }

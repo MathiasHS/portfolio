@@ -3,7 +3,7 @@ import React from "react";
 import { Icon } from "@iconify/react";
 import TextWindow from "./TextWindow";
 
-export default function About() {
+export default function About(props) {
   return (
     <div id="about">
       <div className="flex items-center justify-center">
@@ -34,7 +34,7 @@ export default function About() {
         </div>
 
         <div className="col-span-9 flex justify-center items-center ">
-          <TextWindow />
+          <TextWindow about={props.about} />
         </div>
       </div>
     </div>
