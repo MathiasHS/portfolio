@@ -1,21 +1,14 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
 import SkillsList from "./SkillsList";
 
 export default function Skills(props) {
   return (
-    <Container
-      fluid
-      className="aligner skills"
-      style={{ flexDirection: "column" }}
-    >
-      <Container fluid className="aligner" style={{ marginBottom: 50 }}>
-        <h1 className=" text-lg tracking-widest" style={{ color: "white" }}>
-          SKILLS
-        </h1>
-      </Container>
+    <div className="flex flex-col items-center justify-center skills">
+      <div className="flex items-center justify-center mb-[50px]">
+        <h1 className=" text-lg tracking-widest text-white">SKILLS</h1>
+      </div>
 
       <SkillsList />
-    </Container>
+    </div>
   );
 }
