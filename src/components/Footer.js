@@ -3,8 +3,8 @@ import { Icon } from "@iconify/react";
 
 export default function Footer() {
   return (
-    <div className="footer flex items-center justify-center flex-col">
-      <div className="flex" style={{ marginBottom: 15 }}>
+    <div className="flex items-center justify-center flex-col bg-primaryBlack h-40">
+      <div className="flex mb-4">
         <a href="https://github.com/Datamus" target="_blank" rel="noreferrer">
           <Icon
             icon="akar-icons:github-fill"
