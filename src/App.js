@@ -13,7 +13,7 @@ export default function App() {
   return (
     <>
       <Header />
-      <div className="aligner language">
+      <div className="flex items-center justify-center language">
         <div style={{ marginRight: 15 }}>
           <span
             className="iconify language-icon"

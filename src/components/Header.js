@@ -25,7 +25,7 @@ export default function Header({ props }) {
         <Icon icon="la:laptop-code" width="150" height="150" />
         <p className="title-styles">Mathias Simonsen</p>
 
-        <div className="title-container title-styles">
+        <div className="title-h-14 title-styles">
           <Typewriter
             options={{
               loop: true,

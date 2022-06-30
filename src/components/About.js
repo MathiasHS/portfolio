@@ -6,8 +6,8 @@ import TextWindow from "./TextWindow";
 export default function About() {
   return (
     <div id="about">
-      <div className="aligner">
-        <h1 className="title-styles" style={{ marginTop: 20 }}>
+      <div className="flex items-center justify-center">
+        <h1 className="text-4xl" style={{ marginTop: 20 }}>
           Om meg
         </h1>
       </div>
