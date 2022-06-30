@@ -59,4 +59,63 @@ export const portfolioData = {
       },
     ],
   },
+
+  experience: {
+    companies: [
+      {
+        name: "Nordisk Dekk Import AS",
+        date: "Juni 2022 - August 2022",
+        postition: "Lagermedarbeider",
+        description: "Truckjøring, plukking og pakking av varer. Logistikk.",
+        icon: "mdi:forklift",
+      },
+      {
+        name: "Overflatebehandling Sør AS",
+        date: "Mars 2021 - November 2021",
+        postition: "Sprøytemaler",
+        description: "Behandling av kledning og lister til hus og hytte.",
+        icon: "fluent:paint-brush-16-regular",
+      },
+      {
+        name: "Byggmester Per Otto Ingebretsen AS",
+        date: "Desember 2020 - Januar 2021",
+        postition: "Hjelpearbeider",
+        description: "Etterisolering av bygg.",
+        icon: "codicon:tools",
+      },
+      {
+        name: "VEF Entreprenør AS",
+        date: "Juni 2020 - Juli 2020",
+        postition: "Hjelpearbeider",
+        description: "Tømrerarbeid, anhuker og rydding.",
+        icon: "material-symbols:carpenter-outline-sharp",
+      },
+
+      {
+        name: "VEF Entreprenør AS",
+        date: "Juni 2018 - Juli 2018",
+        postition: "Hjelpearbeider",
+        description: "Tømrerarbeid, anhuker og rydding.",
+        icon: "material-symbols:carpenter-outline-sharp",
+      },
+      {
+        name: "Glencore Nikkelverk AS",
+        date: "Juni 2016 - Desember 2016",
+        postition: "Kranfører",
+        description: "Kjørte traverskran. Høsting av nikkelplater.",
+        icon: "mdi:gantry-crane",
+      },
+      {
+        name: "Kristiansand Dyrepark AS",
+        date: "Juni 2015 - August 2015",
+        postition: "Vedlikeholdsarbeider",
+        description:
+          "Ansvar for pH-verdien i vannet, og pumpene i badelandet. Vaktmesterarbeid rundt om i parken.",
+        icon: "carbon:tool-kit",
+      },
+      {
+        icon: "ant-design:hourglass-outlined",
+      },
+    ],
+  },
 };
