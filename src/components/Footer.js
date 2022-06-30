@@ -1,9 +1,8 @@
 import React from "react";
 import { Icon } from "@iconify/react";
-import { portfolioData } from "../data/portfolioData";
 
-export default function Footer() {
-  var networks = portfolioData.basic_info.social.map((network) => {
+export default function Footer(props) {
+  var networks = props.social.map((network) => {
     return (
       <a key={network.name} href={network.url} target="_blank" rel="noreferrer">
         <Icon
@@ -21,9 +20,7 @@ export default function Footer() {
     <div className="flex items-center justify-center flex-col bg-primaryBlack h-40">
       <div className="flex mb-4">{networks}</div>
 
-      <p className="text-white">
-        Copyright &copy; {portfolioData.basic_info.name}
-      </p>
+      <p className="text-white">Copyright &copy; {props.name}</p>
     </div>
   );
 }
