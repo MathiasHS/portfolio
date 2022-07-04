@@ -9,11 +9,8 @@
 }
 
 header {
-  position: relative;
-  height: 520px;
   min-height: 450px;
-  width: 100%;
-  background-size: cover;
+  max-width: 100%;
   -webkit-background-size: cover;
   text-align: center;
   overflow: hidden;
@@ -38,47 +35,10 @@ header {
   cursor: pointer;
 }
 
-.polaroid img {
-  display: block;
-}
-
-.polaroid span {
-  background: #ffffff;
-  display: inline-block;
-  margin: 55px 75px 30px;
-  padding: 15px 15px 30px;
-  text-align: center;
-  text-decoration: none;
-  -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-  -moz-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-  -webkit-transition: all 0.2s linear;
-  -moz-transition: all 0.2s linear;
-  transition: all 0.2s linear;
-  z-index: 0;
-}
-
 .skills-tile {
   background-color: rgba(248, 245, 244, 0.05);
   padding: 10px 10px 5px;
-  width: 150px;
+  max-width: 150px;
   max-height: 100px;
   border-radius: 8px;
-}
-
-.textWindowTop {
-  border: 2px solid rgba(0, 0, 0, 0.125);
-  border-top-left-radius: 3px;
-  border-top-right-radius: 3px;
-  background-color: rgba(0, 0, 0, 0.03);
-  width: 800px;
-}
-
-.textWindowBody {
-  border: 2px solid rgba(0, 0, 0, 0.125);
-  border-top: none;
-  border-bottom-left-radius: 3px;
-  border-bottom-right-radius: 3px;
-  width: 800px;
-  height: 400px;
 }

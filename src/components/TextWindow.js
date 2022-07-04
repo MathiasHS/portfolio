@@ -1,35 +1,14 @@
 import React from "react";
-import { Icon } from "@iconify/react";
 import "../styles.css";
+import TopBarDots from "../TopBarDots";
 
 export default function TextWindow(props) {
   return (
-    <div className=" justify-center items-center ">
-      <div className="textWindowTop">
-        <div className="inline-flex">
-          <Icon
-            icon="emojione:red-circle"
-            width="10"
-            height="10"
-            style={{ margin: "12.5 5 10" }}
-          />
-          <Icon
-            icon="twemoji:yellow-circle"
-            width="10"
-            height="10"
-            style={{ margin: "12.5 5 10" }}
-          />
-          <Icon
-            icon="twemoji:green-circle"
-            width="10"
-            height="10"
-            style={{ margin: "12.5 5 10" }}
-          />
-        </div>
-      </div>
+    <div id="aboutWindow" className="m-4">
+      <TopBarDots className="border-2 rounded-t bg-slate-50" />
 
-      <div className="textWindowBody">
-        <p style={{ fontSize: 20 }}>{props.about}</p>
+      <div className="border-2 border-t-0 rounded-b">
+        <p className="text-xl">{props.about}</p>
       </div>
     </div>
   );
