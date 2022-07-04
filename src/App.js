@@ -14,7 +14,7 @@ export default function App() {
       <Header name={portfolioData.basic_info.name} />
       <About about={portfolioData.basic_info.about} />
       {/* <Projects /> */}
-      {/* <Skills skills={portfolioData.skills} /> */}
+      <Skills skills={portfolioData.skills} />
       {/* <Experience work={portfolioData.experience} /> */}
       {/* <Footer
         name={portfolioData.basic_info.name}

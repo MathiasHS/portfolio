@@ -23,7 +23,7 @@ export const portfolioData = {
     icons: [
       {
         name: "HTML 5",
-        icon: "fontisto:html5",
+        icon: "cib:html5-shield",
       },
       {
         name: "CSS 3",
