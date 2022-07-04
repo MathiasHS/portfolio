@@ -15,11 +15,11 @@ export default function App() {
       <About about={portfolioData.basic_info.about} />
       {/* <Projects /> */}
       <Skills skills={portfolioData.skills} />
-      {/* <Experience work={portfolioData.experience} /> */}
-      {/* <Footer
+      <Experience work={portfolioData.experience} />
+      <Footer
         name={portfolioData.basic_info.name}
         social={portfolioData.basic_info.social}
-      /> */}
+      />
     </div>
   );
 }

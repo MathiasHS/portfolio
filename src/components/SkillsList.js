@@ -3,13 +3,10 @@ import SkillItem from "./SkillItem.js";
 
 export default function SkillsList(props) {
   return (
-    <div className="flex flex-row">
-      <ul style={{ listStyleType: "none", justifyContent: "space-around" }}>
+    <div id="skillList">
+      <ul className=" flex flex-wrap justify-center items-center max-w-[500px] mb-10">
         {props.skills.icons.map((icon) => (
-          <li
-            key={icon.name.toString()}
-            style={{ float: "left", marginRight: "1rem", marginLeft: "1rem" }}
-          >
+          <li key={icon.name.toString()}>
             <SkillItem name={icon.name} icon={icon.icon} />
           </li>
         ))}
