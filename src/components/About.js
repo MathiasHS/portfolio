@@ -31,9 +31,7 @@ export default function About(props) {
           </div>
         </div>
 
-        <div className="">
-          <TextWindow about={props.about} />
-        </div>
+        <TextWindow about={props.about} />
       </div>
     </div>
   );
