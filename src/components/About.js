@@ -11,7 +11,7 @@ export default function About(props) {
         <h1 className="text-4xl m-10">Om meg</h1>
       </div>
 
-      <div className="grid gap-5 sm:grid-cols-2 xs: grid-cols-1 place-items-center min-h-screen">
+      <div className="grid gap-5 sm:grid-cols-2 xs:grid-cols-1 place-items-center min-h-screen">
         <div className="border-2 shadow ">
           <TopBarDots className="bg-slate-50 border-b-2" />
           <div className="polaroid p-3">
