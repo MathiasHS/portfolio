@@ -1,13 +1,12 @@
 import React from "react";
-import TextWindow from "./TextWindow";
-import Polaroid from "./Polaroid";
+import TextWindow from "../utils/TextWindow";
+import Polaroid from "../utils/Polaroid";
+import SectionTitle from "../utils/SectionTitle";
 
 export default function About(props) {
   return (
     <div id="about">
-      <div className="flex items-center justify-center">
-        <h1 className="text-4xl m-10">Om meg</h1>
-      </div>
+      <SectionTitle title="Om meg" />
 
       <div className="grid gap-5 sm:grid-cols-2 xs:grid-cols-1 place-items-center min-h-screen">
         <Polaroid />

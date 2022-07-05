@@ -1,5 +1,5 @@
 import React from "react";
-import TopBarDots from "../TopBarDots";
+import TopBarDots from "./TopBarDots";
 import { Icon } from "@iconify/react";
 export default function Polaroid() {
   return (

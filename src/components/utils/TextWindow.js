@@ -1,6 +1,5 @@
 import React from "react";
-import "../styles.css";
-import TopBarDots from "../TopBarDots";
+import TopBarDots from "./TopBarDots";
 
 export default function TextWindow(props) {
   return (

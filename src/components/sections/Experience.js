@@ -5,13 +5,12 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import { Icon } from "@iconify/react";
+import SectionTitle from "../utils/SectionTitle";
 
 export default function Experience(props) {
   return (
     <div className="bg-primaryBeige">
-      <div className=" flex py-12  justify-center text-lg tracking-widest">
-        <h1>Erfaring</h1>
-      </div>
+      <SectionTitle title="Erfaring" />
       <VerticalTimeline>
         {props.work.companies.map((exp) => (
           <VerticalTimelineElement
