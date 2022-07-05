@@ -1,17 +1,26 @@
 import React from "react";
+import RoundedNote from "./RoundedNote";
 
-export default function ProjectItem() {
+export default function ProjectItem(props) {
   return (
-    <div className=" bg-slate-400 w-60 h-40 p-2">
-      <p>Title of project</p>
-      <p>Short description of project, 2 lines maybe, not more</p>
-      <div className="flex">
-        <div className="flex h-15 w-30 bg-slate-600">react</div>
-        <div className="flex ml-2 h-15 w-30 bg-slate-600">react</div>
-        <div className="flex ml-2 h-15 w-30 bg-slate-600">react</div>
+    <div className="max-w-[300px] m-2 bg-white p-2 rounded shadow-md">
+      <p className="text-xl">Title of project</p>
+      <div className="min-h-[50px]">
+        <p>Short description of project, 2 lines maybe, not more</p>
       </div>
-      <div className="flex justify-end">
-        <p>View Code</p>
+      <div className="flex flex-wrap">
+        <RoundedNote title="MySQL" className="bg-red-500/75" />
+        <RoundedNote title="MySQL" className="bg-red-500/75" />
+      </div>
+      <div className="flex justify-end ">
+        <a
+          className="hover:bg-primaryBeige/60 hover:shadow-md p-1"
+          href="https://www.vg.no"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <p>View Code</p>
+        </a>
       </div>
     </div>
   );

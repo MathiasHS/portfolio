@@ -4,20 +4,13 @@ import SectionTitle from "../utils/SectionTitle";
 
 export default function Projects() {
   return (
-    <div className="flex flex-col items-center h-96 bg-primaryBeige justify-center">
-      {/* <div className="flex items-center justify-center mb-[50px]">
-        <h1 className=" text-lg tracking-widest">Prosjekter</h1>
-      </div> */}
+    <div className="bg-primaryBeige min-h-[400px] px-80">
       <SectionTitle title="Prosjekter" />
-      <div className="felx flex-row">
-        <ProjectItem />
-        {/* <ProjectItem />
+      <div className="grid grid-cols-3 justify-items-center">
         <ProjectItem />
         <ProjectItem />
         <ProjectItem />
         <ProjectItem />
-        <ProjectItem />
-        <ProjectItem /> */}
       </div>
     </div>
   );
