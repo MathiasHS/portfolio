@@ -8,7 +8,7 @@ export default function About(props) {
     <div id="about">
       <SectionTitle title="Om meg" />
 
-      <div className="grid gap-5 sm:grid-cols-2 xs:grid-cols-1 place-items-center min-h-screen">
+      <div className="grid gap-5 sm:grid-cols-2 xs:grid-cols-1 place-items-center min-h-screen px-20">
         <Polaroid />
 
         <TextWindow about={props.about} />
