@@ -13,7 +13,9 @@ export default function App() {
     <div>
       <Header name={portfolioData.basic_info.name} />
       <About about={portfolioData.basic_info.about} />
-      <Projects />
+
+      <Projects work={portfolioData.work} />
+
       <Skills skills={portfolioData.skills} />
       <Experience work={portfolioData.experience} />
       <Footer

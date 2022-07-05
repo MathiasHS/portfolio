@@ -115,4 +115,40 @@ export const portfolioData = {
       },
     ],
   },
+
+  work: {
+    projects: [
+      {
+        title: "Bachelor prosjekt",
+        description:
+          "Applikasjon: Oppskriftsforum. Gjøre det enklere å lage en middagsplan for en uke.",
+        // tech: [
+        //   {
+        //     name: "React Native",
+        //     color: "bg-green-200",
+        //   },
+        //   {
+        //     name: "Typescript",
+        //     color: "bg-blue-200",
+        //   },
+        //   {
+        //     name: "MySQL",
+        //     color: "bg-indigo-200",
+        //   },
+        //   {
+        //     name: "Docker",
+        //     color: "bg-pink-200",
+        //   },
+        //   {
+        //     name: "GitLab CI/CD",
+        //     color: "bg-yellow-200",
+        //   },
+        // ],
+      },
+      {
+        title: "API",
+        description: "test test",
+      },
+    ],
+  },
 };

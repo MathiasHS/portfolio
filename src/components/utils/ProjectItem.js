@@ -1,12 +1,11 @@
 import React from "react";
 import RoundedNote from "./RoundedNote";
-
 export default function ProjectItem(props) {
   return (
     <div className="max-w-[300px] m-2 bg-white p-2 rounded shadow-md">
-      <p className="text-xl">Title of project</p>
-      <div className="min-h-[50px]">
-        <p>Short description of project, 2 lines maybe, not more</p>
+      <p className="text-xl">{props.title}</p>
+      <div className="min-h-[50px] min-w-[90px]">
+        <p>{props.description}</p>
       </div>
       <div className="flex flex-wrap">
         <RoundedNote title="MySQL" className="bg-red-500/75" />
