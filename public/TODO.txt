@@ -1,13 +1,1 @@
-1.Få header opp å kjøre(full screen) GitHub sticker oppe i venstre hjørne(x)
-2.Hente data fra JSON fil til componenter()
-3.Få til dark/light modus(x)
-4.Få til "CV"-timeline, Experience()
-
-
-#Header
-*Github sticker top left(x)
-*Bilde av data </>(x)
-*Navnet mitt(x)
-*Tekst som skriver seg selv, titler på stilling(x)
-*AV/PÅ knapp til dark/light modus(x)
-*Norsk og Engelsk flag til forskjellig språk(x) Må legge til funksjonalitet!
+-Få til dark/light modus()

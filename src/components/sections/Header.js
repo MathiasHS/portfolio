@@ -21,10 +21,11 @@ export default function Header(props) {
 
   return (
     <>
-      <header className="h-[calc(100vh-8.75rem)]">
-        <div className="flex justify-center items-center flex-col">
+      {/* h-[calc(100vh-8.75rem)] */}
+      <header className="h-screen flex justify-center items-center">
+        <div className="flex items-center flex-col">
           <Icon icon="la:laptop-code" width="150" height="150" />
-          <p className="title-styles">{props.name}</p>
+          <p className="title-styles text-lg tracking-widest">{props.name}</p>
 
           <div className="title-h-14 title-styles">
             <Typewriter
@@ -85,7 +86,7 @@ export default function Header(props) {
           />
         </div>
       </header>
-      <div className="flex items-center justify-center language">
+      {/* <div className="flex items-center justify-center language">
         <div style={{ marginRight: 15 }}>
           <span
             className="iconify language-icon"
@@ -100,7 +101,7 @@ export default function Header(props) {
             data-inline="false"
           ></span>
         </div>
-      </div>
+      </div> */}
     </>
   );
 }
