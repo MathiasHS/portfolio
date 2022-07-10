@@ -16,7 +16,9 @@ export const portfolioData = {
     ],
     image: "image_me.jpg",
     about:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam facilisis, leo sit amet fermentum fringilla, quam elit venenatis nulla, eu ultrices turpis purus sit amet massa. Ut suscipit quam quam, nec pharetra sem ullamcorper id. Nulla elit leo, ultricies a aliquam eget, lobortis nec ipsum. Proin quis eros molestie, feugiat magna a, ornare lectus. Praesent rutrum elit at tellus ornare, eget tristique risus rhoncus. Suspendisse eleifend mauris enim, a lacinia sapien ornare et. Mauris vulputate volutpat est, at consectetur purus fermentum non.",
+      "👋Hei, jeg heter Mathias Simonsen! Jeg har en bachelor i IT og informasjonssystemer, jeg elsker å utvikle nettsider og applikasjoner." +
+      " Jeg er på utkikk etter jobb, en plass hvor jeg kan lære mye, og utvikle meg profesjonelt. Jeg jobber like godt alene som i teams, men ønsker å ta del i det sosiale på jobb." +
+      " På fritiden går jeg på turer og opplever nye plasser, leser om og trader kryptovaluta, gamer og elsker å se en god film.",
   },
 
   skills: {
