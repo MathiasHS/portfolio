@@ -7,9 +7,9 @@ export default function TextWindow(props) {
       <TopBarDots className="border-2 rounded-t bg-slate-50" />
 
       <div className="border-2 border-t-0 rounded-b p-4">
-        <p className="text-xl">{props.about}</p>
+        <p className="text-base">{props.about}</p>
 
-        <div>
+        <div className="mt-4">
           <a
             href="mailto:mathias.hodne.simonsen@gmail.com?subject=Hei Mathias, la oss ta en prat!"
             target="_blank"
