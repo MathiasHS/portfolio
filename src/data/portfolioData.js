@@ -50,12 +50,20 @@ export const portfolioData = {
         icon: "fontisto:mysql",
       },
       {
+        name: "Java",
+        icon: "bxl:java",
+      },
+      {
         name: "Git",
         icon: "bi:git",
       },
       {
         name: "Node.js",
         icon: "bxl:nodejs",
+      },
+      {
+        name: "Tailwind",
+        icon: "bxl:tailwind-css",
       },
     ],
   },
@@ -121,33 +129,115 @@ export const portfolioData = {
       {
         title: "Bachelor prosjekt",
         description:
-          "Applikasjon: Oppskriftsforum. Gjøre det enklere å lage en middagsplan for en uke.",
-        // tech: [
-        //   {
-        //     name: "React Native",
-        //     color: "bg-green-200",
-        //   },
-        //   {
-        //     name: "Typescript",
-        //     color: "bg-blue-200",
-        //   },
-        //   {
-        //     name: "MySQL",
-        //     color: "bg-indigo-200",
-        //   },
-        //   {
-        //     name: "Docker",
-        //     color: "bg-pink-200",
-        //   },
-        //   {
-        //     name: "GitLab CI/CD",
-        //     color: "bg-yellow-200",
-        //   },
-        // ],
+          "Oppskriftsforum. Gjøre det enklere å lage en middagsplan for en uke.",
+        url: "https://github.com/Datamus/application",
+        tech: [
+          {
+            name: "React Native",
+            color: "bg-green-200",
+          },
+          {
+            name: "Typescript",
+            color: "bg-blue-200",
+          },
+          {
+            name: "MySQL",
+            color: "bg-indigo-200",
+          },
+          {
+            name: "Docker",
+            color: "bg-pink-200",
+          },
+          {
+            name: "GitLab CI/CD",
+            color: "bg-yellow-200",
+          },
+        ],
       },
       {
-        title: "API",
-        description: "test test",
+        title: "Bachelor - API",
+        description: "Skrevet i Typescript, bruker Express og TypeORM.",
+        url: "https://github.com/Datamus/api",
+        tech: [
+          {
+            name: "Typescript",
+            color: "bg-blue-200",
+          },
+          {
+            name: "Docker",
+            color: "bg-pink-200",
+          },
+          {
+            name: "Postman",
+            color: "bg-orange-200",
+          },
+          {
+            name: "Swagger",
+            color: "bg-gray-200",
+          },
+        ],
+      },
+      {
+        title: "Guild Control Panel",
+        description:
+          "Prosjekt fra Universitetet, et kontrollpanel for World of Warcraft spillet.",
+        url: "https://github.com/Datamus/guildcp",
+        tech: [
+          {
+            name: "PHP",
+            color: "bg-blue-200",
+          },
+          {
+            name: "Docker",
+            color: "bg-pink-200",
+          },
+          {
+            name: "CSS",
+            color: "bg-orange-200",
+          },
+          {
+            name: "HTML",
+            color: "bg-gray-200",
+          },
+        ],
+      },
+      {
+        title: "Guild Control Panel - API",
+        description: "REST API for Guild Control Panel prosjektet.",
+        url: "https://github.com/Datamus/guildcp-api",
+        tech: [
+          {
+            name: "Typescript",
+            color: "bg-blue-200",
+          },
+          {
+            name: "Postman",
+            color: "bg-orange-200",
+          },
+          {
+            name: "Swagger",
+            color: "bg-gray-200",
+          },
+        ],
+      },
+      {
+        title: "CV - Nettside",
+        description: "Personlig nettside som fungerer som en CV og portefølje.",
+        url: "https://github.com/Datamus/guildcp-api",
+        tech: [
+          {
+            name: "Javacript",
+            color: "bg-yellow-200",
+          },
+          {
+            name: "HTML",
+            color: "bg-gray-200",
+          },
+          {
+            name: "Tailwind",
+            color: "bg-blue-200",
+          },
+        ],
       },
     ],
   },
