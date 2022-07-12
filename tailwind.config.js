@@ -20,4 +20,3 @@ module.exports = {
   },
   plugins: [],
 };
-// dark: 141, 141, 141, light: 31, 31, 31
