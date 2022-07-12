@@ -9,8 +9,7 @@ export default function SkillItem(props) {
           <Icon
             icon={props.icon}
             width={40}
-            color={"white"}
-            style={{ margin: 5 }}
+            style={{ margin: 5, color: "white" }}
           />
         </div>
         <div className="flex items-center justify-center min-w-[35px] rounded text-white">

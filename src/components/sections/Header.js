@@ -1,28 +1,15 @@
-import React, { useState } from "react";
-import { Icon } from "@iconify/react";
-import Switch from "react-switch";
+import React from "react";
 import Typewriter from "typewriter-effect";
+import { Icon } from "@iconify/react";
+import useDarkMode from "../../hooks/useDarkMode";
 
 export default function Header(props) {
-  const [checked, setChecked] = useState(false);
-
-  function onThemeSwitchChange(checked) {
-    setChecked(checked);
-    setTheme();
-  }
-
-  function setTheme() {
-    var dataThemeAttribute = "data-theme";
-    var body = document.body;
-    var newTheme =
-      body.getAttribute(dataThemeAttribute) === "dark" ? "light" : "dark";
-    body.setAttribute(dataThemeAttribute, newTheme);
-  }
+  const [colorTheme, setTheme] = useDarkMode();
 
   return (
     <>
       {/* h-[calc(100vh-8.75rem)] */}
-      <header className="h-screen flex justify-center items-center">
+      <header className="h-screen flex justify-center items-center dark:bg-darkModeColor0">
         <div className="flex items-center flex-col">
           <Icon icon="la:laptop-code" width="150" height="150" />
           <p className="title-styles text-lg tracking-widest">{props.name}</p>
@@ -44,9 +31,27 @@ export default function Header(props) {
             />
           </div>
 
-          <Switch
-            checked={checked}
-            onChange={onThemeSwitchChange}
+          <button
+            style={{ color: "white" }}
+            onClick={() => {
+              setTheme("dark");
+              window.location.reload(false);
+            }}
+          >
+            Darkmode
+          </button>
+          <button
+            style={{ color: "white" }}
+            onClick={() => {
+              setTheme("light");
+              window.location.reload(false);
+            }}
+          >
+            Lightmode
+          </button>
+          {/* <Switch
+            // checked={}
+            // onChange={}
             offColor="#baaa80"
             onColor="#353535"
             className="react-switch mx-auto"
@@ -83,7 +88,7 @@ export default function Header(props) {
               />
             }
             id="icon-switch"
-          />
+          /> */}
         </div>
       </header>
       {/* <div className="flex items-center justify-center language">

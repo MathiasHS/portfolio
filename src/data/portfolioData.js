@@ -225,7 +225,7 @@ export const portfolioData = {
       {
         title: "CV - Nettside",
         description: "Personlig nettside som fungerer som en CV og portefølje.",
-        url: "https://github.com/Datamus/guildcp-api",
+        url: "#",
         tech: [
           {
             name: "Javacript",

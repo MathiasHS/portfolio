@@ -5,10 +5,10 @@ import SectionTitle from "../utils/SectionTitle";
 
 export default function About(props) {
   return (
-    <div id="about">
-      <SectionTitle title="Om meg" />
+    <div id="about" className="bg-white dark:bg-darkModeColor1 min-h-full">
+      <SectionTitle title="Om meg" className="dark:text-white" />
 
-      <div className="grid gap-5 sm:grid-cols-2 xs:grid-cols-1 place-items-center min-h-screen px-20">
+      <div className="grid gap-5 sm:grid-cols-2 xs:grid-cols-1 place-items-center min-h-screen">
         <Polaroid />
 
         <TextWindow about={props.about} />

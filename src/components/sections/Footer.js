@@ -7,10 +7,9 @@ export default function Footer(props) {
       <a key={network.name} href={network.url} target="_blank" rel="noreferrer">
         <Icon
           icon={network.icon}
-          color="white"
           width="25"
           height="25"
-          style={{ marginRight: 20 }}
+          style={{ marginRight: 20, color: "white" }}
         />
       </a>
     );
