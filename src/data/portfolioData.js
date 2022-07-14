@@ -239,6 +239,10 @@ export const portfolioData = {
             name: "Tailwind",
             color: "bg-blue-200",
           },
+          {
+            name: "React",
+            color: "bg-green-200",
+          },
         ],
       },
     ],

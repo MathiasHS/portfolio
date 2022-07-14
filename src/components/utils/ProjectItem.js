@@ -11,7 +11,7 @@ export default function ProjectItem(props) {
   return (
     <div className="w-72 p-2 my-2 bg-white dark:bg-darkModeColor0 rounded shadow-md ">
       <div className="flex">
-        <p className="text-xl dark:text-white">{props.title}</p>
+        <p className=" dark:text-white">{props.title}</p>
         <a
           className=" dark:text-white"
           href={props.url}
@@ -22,7 +22,7 @@ export default function ProjectItem(props) {
         </a>
       </div>
 
-      <p className="dark:text-white">{props.description}</p>
+      <p className="dark:text-white text-sm">{props.description}</p>
       <div className="flex flex-wrap">{techs}</div>
     </div>
   );

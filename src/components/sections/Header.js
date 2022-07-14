@@ -1,18 +1,18 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
 import { Icon } from "@iconify/react";
-import useDarkMode from "../../hooks/useDarkMode";
-
+import DarkmodeToggle from "../utils/DarkmodeToggle";
 export default function Header(props) {
-  const [colorTheme, setTheme] = useDarkMode();
-
   return (
     <>
       {/* h-[calc(100vh-8.75rem)] */}
       <header className="h-screen flex justify-center items-center dark:bg-darkModeColor0">
         <div className="flex items-center flex-col">
           <Icon icon="la:laptop-code" width="150" height="150" />
-          <p className="title-styles text-lg tracking-widest">{props.name}</p>
+
+          <p className="title-styles text-lg tracking-widest">
+            {"<" + props.name + " />"}
+          </p>
 
           <div className="title-h-14 title-styles">
             <Typewriter
@@ -31,64 +31,9 @@ export default function Header(props) {
             />
           </div>
 
-          <button
-            style={{ color: "white" }}
-            onClick={() => {
-              setTheme("dark");
-              window.location.reload(false);
-            }}
-          >
-            Darkmode
-          </button>
-          <button
-            style={{ color: "white" }}
-            onClick={() => {
-              setTheme("light");
-              window.location.reload(false);
-            }}
-          >
-            Lightmode
-          </button>
-          {/* <Switch
-            // checked={}
-            // onChange={}
-            offColor="#baaa80"
-            onColor="#353535"
-            className="react-switch mx-auto"
-            width={90}
-            height={40}
-            uncheckedIcon={
-              <span
-                className="iconify"
-                data-icon="twemoji:owl"
-                data-inline="false"
-                style={{
-                  display: "block",
-                  height: "100%",
-                  fontSize: 25,
-                  textAlign: "end",
-                  marginLeft: "20px",
-                  color: "#353239",
-                }}
-              />
-            }
-            checkedIcon={
-              <span
-                className="iconify"
-                data-icon="noto-v1:sun-with-face"
-                data-inline="false"
-                style={{
-                  display: "block",
-                  height: "100%",
-                  fontSize: 25,
-                  textAlign: "end",
-                  marginLeft: "10px",
-                  color: "#353239",
-                }}
-              />
-            }
-            id="icon-switch"
-          /> */}
+          <div className="absolute top-0 right-0 mt-4 mr-4">
+            <DarkmodeToggle />
+          </div>
         </div>
       </header>
       {/* <div className="flex items-center justify-center language">
