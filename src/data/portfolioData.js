@@ -225,7 +225,7 @@ export const portfolioData = {
       {
         title: "CV - Nettside",
         description: "Personlig nettside som fungerer som en CV og portefølje.",
-        url: "#",
+        url: "https://github.com/Datamus/portfolio",
         tech: [
           {
             name: "Javacript",
