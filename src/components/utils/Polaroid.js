@@ -1,6 +1,7 @@
 import React from "react";
 import TopBarDots from "./TopBarDots";
 import { Icon } from "@iconify/react";
+import pictureMe from "../../images/image_me.PNG"
 export default function Polaroid() {
   const favTechIcons = () => {
     if (localStorage.getItem("theme") === "dark") {
@@ -39,7 +40,7 @@ export default function Polaroid() {
       <TopBarDots className="bg-slate-50 dark:bg-darkModeColor4 border-b-2 dark:border-none" />
       <div className="polaroid dark:bg-darkModeColor4 p-3">
         <div className="flex mb-4 justify-center items-center ">
-          <img width={180} src="images/image_me.png" alt="Avatar placeholder" />
+          <img width={180} src={pictureMe} alt="Avatar placeholder" />
         </div>
         <div className="inline-flex">{favTechIcons()}</div>
       </div>
