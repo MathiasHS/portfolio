@@ -1,6 +1,6 @@
 import React from "react";
-import SectionTitle from "../utils/SectionTitle";
-import SkillsList from "../utils/SkillsList";
+import SectionTitle from "../../utils/SectionTitle";
+import SkillsList from "./components/SkillsList";
 
 export default function Skills(props) {
   return (

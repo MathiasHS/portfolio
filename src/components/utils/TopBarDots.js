@@ -4,7 +4,7 @@ import { Icon } from "@iconify/react";
 export default function TopBarDots(props) {
   return (
     <div className={[props.className]}>
-      <div className="inline-flex">
+      <div className="inline-flex px-2">
         <Icon
           icon="emojione:red-circle"
           width="10"

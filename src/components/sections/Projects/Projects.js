@@ -1,6 +1,6 @@
 import React from "react";
-import ProjectList from "../utils/ProjectList";
-import SectionTitle from "../utils/SectionTitle";
+import ProjectList from "./components/ProjectList";
+import SectionTitle from "../../utils/SectionTitle";
 
 export default function Projects(props) {
   return (

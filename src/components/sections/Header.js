@@ -6,7 +6,7 @@ export default function Header(props) {
   return (
     <>
       {/* h-[calc(100vh-8.75rem)] */}
-      <header className="h-screen flex justify-center items-center dark:bg-darkModeColor0">
+      <header className="h-screen flex justify-center items-center bg-primaryBeige dark:bg-darkModeColor0">
         <div className="flex items-center flex-col">
           <Icon icon="la:laptop-code" width="150" height="150" />
 
@@ -36,22 +36,6 @@ export default function Header(props) {
           </div>
         </div>
       </header>
-      {/* <div className="flex items-center justify-center language">
-        <div style={{ marginRight: 15 }}>
-          <span
-            className="iconify language-icon"
-            data-icon="twemoji-flag-for-flag-norway"
-            data-inline="false"
-          ></span>
-        </div>
-        <div>
-          <span
-            className="iconify language-icon"
-            data-icon="twemoji-flag-for-flag-united-kingdom"
-            data-inline="false"
-          ></span>
-        </div>
-      </div> */}
     </>
   );
 }

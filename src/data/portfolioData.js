@@ -1,7 +1,6 @@
 export const portfolioData = {
   basic_info: {
     name: "Mathias Hodne Simonsen",
-    titles: ["Webutvikler", "Datanerd", "Crypto entusiast", "Gamer", "Speider"],
     social: [
       {
         name: "github",
@@ -14,11 +13,10 @@ export const portfolioData = {
         icon: "akar-icons:linkedin-box-fill",
       },
     ],
-    image: "image_me.jpg",
     about:
-      "👋Hei, jeg heter Mathias Simonsen! Jeg har en bachelor i IT og informasjonssystemer, jeg elsker å utvikle nettsider og applikasjoner." +
-      " Jeg er på utkikk etter jobb, en plass hvor jeg kan lære mye, og utvikle meg profesjonelt. Jeg jobber like godt alene som i teams, men ønsker å ta del i det sosiale på jobb." +
-      " På fritiden går jeg på turer og opplever nye plasser, leser om og trader kryptovaluta, gamer og elsker å se en god film.",
+      "👋Hei, jeg heter Mathias Hodne Simonsen! Bachelorgraden i IT og informasjonssystemer tok jeg på Universitetet i Sørøst-Norge, og jeg elsker å utvikle nettsider og applikasjoner." +
+      " Ønsker nå å finne meg en jobb hvor jeg kan lære mye, og utvikle meg profesjonelt. Jeg jobber like godt alene som i teams, men ønsker å ta del i det sosiale på jobb." +
+      " På fritiden er jeg glad i å være ute i naturen og oppleve nye steder. Forøvrig går mye av tiden min til krypto, gaming, utvikling, musikk og film.",
   },
 
   skills: {

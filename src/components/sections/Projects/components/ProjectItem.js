@@ -1,5 +1,5 @@
 import React from "react";
-import RoundedNote from "./RoundedNote";
+import RoundedNote from "../../../utils/RoundedNote";
 import { Icon } from "@iconify/react";
 export default function ProjectItem(props) {
   var techs = props.tech.map((tech) => {

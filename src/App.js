@@ -1,10 +1,10 @@
 import React from "react";
 import Header from "./components/sections/Header";
 import About from "./components/sections/About";
-import Skills from "./components/sections/Skills";
-import Footer from "./components/sections/Footer";
+import Projects from "./components/sections/Projects/Projects";
+import Skills from "./components/sections/Skills/Skills";
 import Experience from "./components/sections/Experience";
-import Projects from "./components/sections/Projects";
+import Footer from "./components/sections/Footer";
 import { portfolioData } from "./data/portfolioData";
 
 import "./styles.css";
