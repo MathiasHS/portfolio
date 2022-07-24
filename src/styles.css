@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@media screen and (max-width: 1170px) {
+  .exp-date-color {
+    color: black;
+  }
+}
+
+@media screen and (min-width: 1170px) {
+  .exp-date-color {
+    color: white;
+  }
+}
