@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -6,7 +6,6 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import { Icon } from "@iconify/react";
 import SectionTitle from "../utils/SectionTitle";
-import "../../styles.css";
 
 export default function Experience(props) {
   const resumeElementBg =
