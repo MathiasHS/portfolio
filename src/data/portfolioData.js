@@ -15,7 +15,7 @@ export const portfolioData = {
     ],
     about:
       "👋Hei, jeg heter Mathias Hodne Simonsen! Bachelorgraden i IT og informasjonssystemer tok jeg på Universitetet i Sørøst-Norge, og jeg elsker å utvikle nettsider og applikasjoner." +
-      " Ønsker nå å finne meg en jobb hvor jeg kan lære mye, og utvikle meg profesjonelt. Jeg jobber like godt alene som i teams, men ønsker å ta del i det sosiale på jobb." +
+      " Ønsker nå å finne meg en jobb hvor jeg kan lære mye, og utvikle meg profesjonelt. Jeg jobber like godt alene som i gruppe, men ønsker å ta del i det sosiale på jobb." +
       " På fritiden er jeg glad i å være ute i naturen og oppleve nye steder. Forøvrig går mye av tiden min til krypto, gaming, utvikling, musikk og film.",
   },
 
