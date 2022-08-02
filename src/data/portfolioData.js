@@ -9,7 +9,7 @@ export const portfolioData = {
       },
       {
         name: "linkedin",
-        url: "www.linkedin.com/in/mathias-simonsen",
+        url: "https://www.linkedin.com/in/mathias-simonsen",
         icon: "akar-icons:linkedin-box-fill",
       },
     ],
